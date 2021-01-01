@@ -2,7 +2,7 @@
 
 Snake game made using `Python`.
 
-## Pre requirements
+### Pre requirements
 
 - Python (https://www.python.org/downloads/)
 - Python interpreter
@@ -11,6 +11,6 @@ Snake game made using `Python`.
 - `Pygame` library (https://pypi.org/project/pygame/)
 
 
-## Start Play
+### Start Play
 
 <img src="init-game.gif">
