@@ -28,7 +28,7 @@ git clone https://github.com/mariomthree/snake-game.git
 cd snake-game
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt  # or pip install pygame
+pip install pygame
 python3 snake.py
 ```
 
@@ -39,19 +39,6 @@ python3 snake.py
 | → | Move Right |
 | ↑ | Move Up |
 | ↓ | Move Down |
-
-## 🔧 Development Setup
-
-1. Clone the repository
-2. Set up virtual environment
-3. Install dependencies:
-   ```bash
-   pip install -e .[dev]
-   ```
-4. Run the game:
-   ```bash
-   python3 snake.py
-   ```
 
 ## 📅 Roadmap
 
