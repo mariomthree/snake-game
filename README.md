@@ -56,13 +56,13 @@ python3 snake.py
 ## 📅 Roadmap
 
 ### Coming in Next Release
-- 🎨 Custom game sprites
-- 🎵 Sound effects system
+- 🌟 Main menu interface
 - 📊 High score tracking
+- 🎨 Custom game sprites
 
 ### Future Plans
-- 🌟 Main menu interface
 - ⚙️ Difficulty settings
+- 🎵 Sound effects system
 - 🕹️ Game mode variations
 
 ## 🤝 Contributing
