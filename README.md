@@ -25,7 +25,7 @@ Make sure you have the following installed:
 1. Clone or download this repository:
 
    ```bash
-   git clone https://github.com/your-username/snake-game.git
+   git clone git@github.com:mariomthree/snake-game.git
    cd snake-game
    ```
 
