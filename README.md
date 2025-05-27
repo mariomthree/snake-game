@@ -1,99 +1,83 @@
-# 🐍 Snake Game — Beta Version
+# 🐍 Snake Game - Beta Release
 
-This is a prototype of the classic **Snake Game**, developed in **Python** using the **Pygame** library.
-The project is currently in **Beta**, with improvements and new features planned for future releases.
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Pygame Version](https://img.shields.io/badge/pygame-2.5%2B-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-![Game Start](init-game.gif)
+A modern Python implementation of the classic Snake Game using Pygame. This beta release includes core gameplay functionality with planned enhancements coming soon.
 
----
+![Gameplay Demo](init-game.gif)
 
-## ⚙️ Requirements
+## 🚀 Features
 
-Make sure you have the following installed:
+✔️ Smooth snake controls with arrow keys  
+✔️ Randomized food spawning  
+✔️ Growing snake mechanics  
+✔️ Wall and self-collision detection  
+✔️ Score tracking system  
 
-* [Python 3.8 or higher](https://www.python.org/downloads/)
-* [Pip](https://pip.pypa.io/en/stable/)
-* A code editor such as:
+## 📦 Installation
 
-  * [VS Code](https://code.visualstudio.com/)
-  * [PyCharm](https://www.jetbrains.com/pycharm/download/)
+### Prerequisites
+- Python 3.8+
+- Pip package manager
 
----
+### Quick Start
+```bash
+git clone https://github.com/mariomthree/snake-game.git
+cd snake-game
+python3 -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt  # or pip install pygame
+python3 snake.py
+```
 
-## 🎮 How to Get Started
+## 🎮 Controls
+| Key | Action |
+|-----|--------|
+| ← | Move Left |
+| → | Move Right |
+| ↑ | Move Up |
+| ↓ | Move Down |
 
-1. Clone or download this repository:
+## 🔧 Development Setup
 
+1. Clone the repository
+2. Set up virtual environment
+3. Install dependencies:
    ```bash
-   git clone git@github.com:mariomthree/snake-game.git
-   cd snake-game
+   pip install -e .[dev]
    ```
-
-2. Create a virtual environment:
-
-   ```bash
-   python3 -m venv venv
-   ```
-
-3. Activate the virtual environment:
-
-   * On **Windows**:
-
-     ```bash
-     venv\Scripts\activate
-     ```
-
-   * On **Linux/macOS**:
-
-     ```bash
-     source venv/bin/activate
-     ```
-
-4. Install Pygame:
-
-   ```bash
-   pip install pygame
-   ```
-
-5. Run the game:
-
+4. Run the game:
    ```bash
    python3 snake.py
    ```
 
----
+## 📅 Roadmap
 
-### 🕹️ Controls
+### Coming in Next Release
+- 🎨 Custom game sprites
+- 🎵 Sound effects system
+- 📊 High score tracking
 
-* ◀ `Left Arrow` – Move left
-* ▶ `Right Arrow` – Move right
-* ▲ `Up Arrow` – Move up
-* ▼ `Down Arrow` – Move down
+### Future Plans
+- 🌟 Main menu interface
+- ⚙️ Difficulty settings
+- 🕹️ Game mode variations
 
----
+## 🤝 Contributing
 
-## ✨ Current Features
+Contributions are welcome! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
-* ✅ Snake movement with arrow keys
-* ✅ Random food generation
-* ✅ Snake grows when eating
-* ✅ Collision detection with itself
-* ✅ Game over message with score
+## 📜 License
 
----
-
-## 🚧 Roadmap
-
-* [ ] Main menu screen
-* [ ] High score table
-* [ ] Custom sprites
-* [ ] Sound effects and visual feedback
-* [ ] Difficulty levels
-
----
+MIT License - See [LICENSE](LICENSE) for details.
 
 ## 👨‍💻 Author
 
-Developed by **Mário M. Mabande** </br>
-[![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square\&logo=Linkedin\&logoColor=white\&link=https://www.linkedin.com/in/mario-manuel-mabande-23bb891b6/)](https://www.linkedin.com/in/mariomthree/)
-[![Twitter Badge](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square\&labelColor=1ca0f1\&logo=twitter\&logoColor=white\&link=https://twitter.com/mariomthree)](https://twitter.com/mariomthree)
+**Mário M. Mabande**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mariomthree/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/mariomthree)
